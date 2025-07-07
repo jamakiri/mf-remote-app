@@ -10,7 +10,7 @@ This remote module exposes a `UserPanel` component via Webpack Module Federation
 remote-module/
 ├── src/
 │   ├── App.tsx         # Component exposed to the host
-│   ├── index.tsx       # Entry point (for standalone mode)
+│   └── index.tsx       # Entry point (for standalone mode)
 ├── public/             # Static assets
 ├── package.json
 ├── webpack.config.js
